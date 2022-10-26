@@ -27,7 +27,7 @@ $(document).ready(function(){
         $("#tabContent .tab").removeClass('active'); // remove from all tabs
         $("#tabContent #"+tabName).addClass('active'); // add to the targedted tabs
 
-        e.preventDefault();
+       
     })
 })
 
