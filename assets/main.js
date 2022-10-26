@@ -29,5 +29,8 @@ $(document).ready(function(){
 
         e.preventDefault();
     })
+    $('#tabButton').click(function (){
+        $('#fausal').remove('faisal')
+    })
 })
 
